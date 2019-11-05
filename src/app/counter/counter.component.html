@@ -1,0 +1,6 @@
+<div class="centered">
+  <span class="counter">{{counter}}</span>
+  <button mat-stroked-button [disabled]="!authService.isAuthenticated()"
+    (click)="incrementClickEventHandler()">Increment
+  </button>
+</div>
